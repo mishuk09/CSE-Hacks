@@ -154,17 +154,27 @@ body{
 
   }
 
-  .manue-bar-design a{
+  .manue-bar-design  a{
     text-decoration: none;
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 18px;
     color: white;
   }
 
 .manue-bar-design a i {
     color: white;
 }
+.manue-bar-design a:hover {
+    color: white;
+    background-color: #3e6a40;
+    height: 45px;
+    margin-top: px;
+    
+}
 
+.manue-home a{
+    margin-top:10px;
+}
 
 
 
