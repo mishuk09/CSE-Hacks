@@ -11,75 +11,42 @@
 }
 
 
+
 body{
     font-family: sans-serif;
     font-family: 'Aleo', serif;
+     
 }
  
-
+.body{
+    background-color: #f9f4f4;
+}
 
 
 
 /* Navbar Css */
 
+  .login-button button{
+   border: 1px solid #4CAF50 ;
+    border-radius: 5px;
+    padding: 2px;
+     
+  }
 
+  .login-button button i{
+    font-weight: 600;
+    margin-left: 5px;
+    
+   }
+
+
+  .login-button button span{
+    
+    margin-left: 5px;
+    
+   }
  
 
-.navbar img{
-
-    margin-left: 10px;
-  }
-  
-  #navbarSupportedContent{
-      margin-left: 420px;
-      
-  }
-  
-  #navbarSupportedContent ul li{
-      margin-left: 10px;
-      margin-top: 0px;
-      padding-top: 0px;
-      
-  }
-  
-  #navbarSupportedContent ul li:hover{
-      background-color: rgb(110, 183, 0);
-       color: white;
-       font-weight: 700;
-       border-radius: 5px;
-  }
-  
-  #navbarSupportedContent ul li a:hover{
-      background-color: rgb(110, 183, 0);
-      color: white;
-      font-weight: 700;
-      border-radius: 7px;
-  }
-  
-  
-  
-  .home-icon{
-      margin-top: 5px;
-      margin-right: 0px;
-      margin-left: 10px;
-  }
-  
-  .collapse ul li a{
-      margin-left: 0px;
-      padding-left: 0px;
-  
-  }
-   
-  .nav-item{
-      display: flex;
-  }
-  
-  .horizontalline{
-      margin: 0px;
-      
-  }
-  
-  
 
   .nav-div{
     height: 50px;
@@ -92,16 +59,31 @@ body{
     margin: 11px;
     width: 700px;
     border: 1px solid #4CAF50;
+    border-radius: 3px;
   }
   
 
   .nav-div button{
-    height: 25px;
-    border:  1px solid  #4CAF50;
-    width: 50px;
-    background-color: white;
+    height: 30px;
+    width: 70px;
+    background-color: black;
+    border-radius: 3px;
+    border: none;
   }
-  
+  .nav-div button i{
+    color: white;
+     
+  }
+
+
+  .manue-bar{
+    height: 40px;
+    background-color: #4CAF50;
+  }
+
+
+
+
   /*-------------------------------- Navbar Css --------------------------------*/
    
   
