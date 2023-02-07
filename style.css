@@ -184,14 +184,15 @@ body{
   font-weight: 700;
   color: white;
   font-family: 'Times New Roman', Times, serif;
-  
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 0px;
+}
+.nabar-link div a i{
+  margin: 3px;
 }
 
-
-#latest-tutorial{
-  width: 50px;
-}
-
+ 
 
 
 
