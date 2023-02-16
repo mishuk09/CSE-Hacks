@@ -179,6 +179,8 @@ body{
   
   display: flex;
   width: 100px;
+  text-align: center;
+  justify-content: center;
 
 }
 
@@ -218,3 +220,59 @@ body{
 
 
       /*-------------------------------- Manue end --------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+         /*-------------------------------- Latest tutorial start--------------------------------*/
+
+
+
+      .latest-tutorial-headline i{
+        font-size: 30px;
+        color: #4CAF50;
+
+      }
+
+      .latest-tutorial-headline {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        
+      
+      }
+
+      .latest-tutorial-headline span {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #e83a59;
+        font-weight: 700;
+      
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*-------------------------------- Latest tutorial End--------------------------------*/
