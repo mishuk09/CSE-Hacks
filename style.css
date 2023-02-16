@@ -166,20 +166,30 @@ body{
 
 
 .nabar-link{
+  display: flex;
   background-color: #4CAF50;
+  height: 45px;
+   
+   
+}
+
+
+
+.nabar-link div{
+  
+  display: flex;
+  width: 100px;
+
+}
+
+.nabar-link div:hover{
+  background-color: #3e6a40;
   height: 45px;
 }
 
 
-
-.nabar-link div:hover{
-  background-color: #3e6a40;
-
-}
-
-
 .nabar-link div a{
-  display: flex;
+  
   text-decoration: none;
   font-weight: 700;
   color: white;
@@ -187,14 +197,13 @@ body{
   margin-top: 10px;
   margin-left: 5px;
   padding: 0px;
+   
 }
 .nabar-link div a i{
   margin: 3px;
 }
 
  
-
-
 
 
 
