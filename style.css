@@ -167,7 +167,7 @@ body{
 
 .nabar-link{
   display: flex;
-  background-color: #4CAF50;
+  background-color:  #B4161B;
   height: 45px;
    
    
@@ -185,7 +185,8 @@ body{
 }
 
 .nabar-link div:hover{
-  background-color: #3e6a40;
+  background-color: #4CAF50;
+  transition: 0.5s;
   height: 45px;
 }
 
@@ -310,8 +311,21 @@ body{
 
 
 
+.carfooter-div{
+  display: flex;
+}
 
-
+.carfooter-div button{
+   border: none;
+   margin-left: 140px;
+   background-color: #4CAF50;
+   padding: 5px;
+   color: white;
+   font-weight: 700;
+   border-radius: 4px;
+   margin-top: 2px;
+   font-family: 'Times New Roman', Times, serif;
+}
 
 
 
