@@ -295,7 +295,7 @@ body{
 
 
 
-            /*-------------------------------- Latest tutorial End--------------------------------*/
+  /*-------------------------------- Latest tutorial End----------------------------/
 
 
 
@@ -304,10 +304,7 @@ body{
 
 
 
-
-
-
-            /*-------------------------------- Trending tutorial start--------------------------------*/
+            /*-------------------------------- Trending tutoria start----------------------------*/
 
 
 
@@ -317,7 +314,7 @@ body{
 
 .carfooter-div button{
    border: none;
-   margin-left: 140px;
+   
    background-color: #4CAF50;
    padding: 5px;
    color: white;
@@ -325,20 +322,6 @@ body{
    border-radius: 4px;
    margin-top: 2px;
    font-family: 'Times New Roman', Times, serif;
-}
-
-
-
-.trendin-box-shadow:hover{
-
- 
- 
- 
-  margin: 0px;
-  overflow: inherit;
-  z-index: 10;
- 
-  box-shadow: 0px 7.5px 7.5px #93AAB6;
 }
 
 
@@ -418,7 +401,7 @@ height: 250px;
 
 
 .footer-learn{
-  width:400px;
+ 
   font-family: 'Times New Roman', Times, serif;
 }
 
