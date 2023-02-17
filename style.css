@@ -329,6 +329,18 @@ body{
 
 
 
+.trendin-box-shadow:hover{
+
+ 
+ 
+ 
+  margin: 0px;
+  overflow: inherit;
+  z-index: 10;
+ 
+  box-shadow: 0px 7.5px 7.5px #93AAB6;
+}
+
 
 
 
@@ -341,3 +353,66 @@ body{
 
 
                       /*-------------------------------- Trending  tutorial End--------------------------------*/
+
+
+
+
+
+
+footer{
+background-color:  #eee9e9;
+height: 250px;
+}
+
+
+.footer-main-div{
+  display: flex;
+}
+
+.footer-main-div0 p img{
+   margin-left: 40px;
+   margin-top: 10px;
+}
+
+
+.footer-main-div1 img{
+  margin-left: 40px;
+  margin-top: 0px;
+  padding: 0px;
+}
+.footer-main-div1 {
+  margin-top: 0px;
+}
+
+
+
+ 
+
+.location-email{
+  margin-left: 40px;
+  line-height: 0in;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+   
+}
+
+
+.footer-about{
+   margin-left: 30px;
+   margin-top: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-about a {
+  text-decoration: none;
+}
+
+
+
+.footer-learn{
+  width:400px;
+}
+
+.footer-contact{
+  width:400px;
+}
