@@ -256,6 +256,12 @@ body{
       
       }
 
+      .latest-tutorial-div0{
+       
+         
+      }
+      
+
 
 .latest-tutorial-div div{
   width:  150px;
@@ -263,46 +269,61 @@ body{
    
 }
 
+ 
+
 .latest-tutorial-div div img{
   
  margin-top: 30px;
    
 }
 
-.latest-tutorial-div div p{
-  
-  margin-top: 20px;
-  font-family: 'Times New Roman', Times, serif;
-text-decoration: none; 
-}
  
- .latest-tutorial-div div a shadow p{
-  
-  margin-top: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  text-decoration: none;
+.shadow p{
   color: #4CAF50;
-  
-
-
-}
- 
-#c-programing{
-  text-decoration: none;
+  margin-top: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+   
 }
 
-
-
-
-
-
-
-
-
-
+.text-decoration-p a{
+  text-decoration: none !important;
+}
 
 
 
 
 
             /*-------------------------------- Latest tutorial End--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+            /*-------------------------------- Trending tutorial start--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      /*-------------------------------- Trending  tutorial End--------------------------------*/
