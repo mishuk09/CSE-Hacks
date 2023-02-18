@@ -202,6 +202,10 @@ body{
   padding: 0px;
    
 }
+
+#dbms{
+  width: 100px;
+}
 .nabar-link div a i{
   margin: 3px;
 }
@@ -432,7 +436,7 @@ height: 250px;
 
 
 
-
+/* icon */
 
 
 .footer-div a i{
