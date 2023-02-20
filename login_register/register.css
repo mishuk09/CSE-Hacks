@@ -32,3 +32,28 @@
     .card-registration .select-arrow {
         top: 13px;
     }
+    
+    .card-registration {
+        width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    .login-button span {
+        font-weight: 700;
+        margin-left: 5px;
+    }
+    
+    form button {
+        background-color: #5cb85f;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    
+    .login-button a {
+        margin-left: 57px;
+    }
