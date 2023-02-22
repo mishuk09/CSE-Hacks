@@ -35,3 +35,9 @@ form button {
     padding: 5px;
     color: white;
 }
+
+label.error {
+    font-weight: 700;
+    display: block;
+    color: black;
+}
