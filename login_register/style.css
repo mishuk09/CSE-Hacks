@@ -28,6 +28,10 @@ body {
     margin-right: auto;
 }
 
-.login-button {
-    background-color: #4CAF50;
+form button {
+    background-color: #5cb85f;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
 }
