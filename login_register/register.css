@@ -70,3 +70,14 @@
         margin-left: 18px;
         margin-top: 5px;
     }
+    
+    .login-form input {
+        font-size: 15px;
+    }
+    
+    .login-form label {
+        font-size: 15px;
+        color: red;
+        font-weight: 700;
+        visibility: hidden;
+    }
