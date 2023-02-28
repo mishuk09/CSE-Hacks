@@ -204,8 +204,39 @@ body {
     border-radius: 70px;
 }
 
+.home-page-section h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
 
-/*-------------------------------- Manue end --------------------------------*/
+.rku-logo-head img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rku-logo-head p {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #4CAF50;
+}
+
+.rku-logo-head marquee {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(6, 6, 69);
+    margin-top: 0px;
+    padding: 0px;
+    transition: 0.5s;
+}
+
+.rku-logo-head marquee span {
+    color: rgb(143, 3, 3);
+    font-size: 30px;
+}
 
 
 /*-------------------------------- Latest tutorial start--------------------------------*/
@@ -249,119 +280,3 @@ body {
 
 
 /*-------------------------------- Latest tutorial End----------------------------/
-
-
-
-
-
-
-
-
-            /*-------------------------------- Trending tutoria start----------------------------*/
-
-.carfooter-div {
-    display: flex;
-}
-
-.carfooter-div button {
-    border: none;
-    background-color: #4CAF50;
-    padding: 5px;
-    color: white;
-    font-weight: 700;
-    border-radius: 4px;
-    margin-top: 2px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-/*-------------------------------- Trending  tutorial End--------------------------------*/
-
-footer {
-    background-color: #eee9e9;
-    height: 250px;
-}
-
-.footer-main-div {
-    display: flex;
-}
-
-.footer-main-div0 p img {
-    margin-left: px;
-    margin-top: 10px;
-}
-
-.footer-main-div0 p {
-    margin-left: 40px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.footer-main-div1 img {
-    margin-left: 40px;
-    margin-top: 0px;
-    padding: 0px;
-}
-
-.footer-main-div1 {
-    margin-top: 0px;
-}
-
-.location-email {
-    line-height: 0in;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-.footer-about {
-    margin-left: 30px;
-    margin-top: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.footer-about a {
-    text-decoration: none;
-    color: black;
-    padding-top: 15px;
-}
-
-.footer-learn {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.footer-learn a {
-    text-decoration: none;
-    color: black;
-    padding-top: 15px;
-}
-
-.footer-contact {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-/* icon */
-
-.footer-div a i {
-    font-size: 25px;
-    color: black;
-    margin-left: 8px;
-}
-
-.footer-div svg {
-    color: white;
-    background-color: white;
-    border-radius: 50%;
-    border: none;
-}
-
-.footer-div {
-    margin-top: 0px;
-    font-size: 10px;
-    color: white;
-    padding: 5px;
-}
-
-.footer-div3 {
-    margin-top: 5px;
-    color: black;
-}
