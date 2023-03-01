@@ -18,11 +18,18 @@ body {
 
 /* Navbar Css */
 
+.navbar-main {
+    background-image: url(images/nav.png);
+}
+
 .search-bar-back {
     background-color: white;
-    height: 60px;
-    padding: 4px;
-    margin-top: 6px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+.search-bar-back input {
+    margin-top: 4px;
 }
 
 .search-bar2 {
@@ -33,12 +40,12 @@ body {
 
 .login-button button {
     width: 100px;
+    margin-top: 0px;
 }
 
 .login-button button {
     border: 1px solid #4CAF50;
     border-radius: 5px;
-    padding: 2px;
 }
 
 .login-button button i {
@@ -53,21 +60,22 @@ body {
 .nav-div button {
     height: 35px;
     width: 70px;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
     border: none;
-    margin-top: 1px;
+    margin-top: 5px;
+    border: 1px solid rgb(203, 177, 177);
 }
 
 .nav-div button i {
-    color: white;
+    color: black;
 }
 
 .login-button button {
     border: 1px solid #4CAF50;
     border-radius: 5px;
     padding: 2px;
-    margin-top: 8px;
+    margin-top: 5px;
     height: 35px;
     width: 100px;
     background-color: white;
@@ -90,9 +98,8 @@ body {
 
 .log-in-back {
     background-color: white;
-    height: 60px;
-    padding: 4px;
-    margin-top: 20px;
+    height: 45px;
+    border-radius: 4px;
 }
 
 .manue-bar {
