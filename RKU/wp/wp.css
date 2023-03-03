@@ -293,6 +293,14 @@ body {
     display: block;
 }
 
+#assignment11 section {
+    display: none;
+}
+
+#assignment11 section:target {
+    display: block;
+}
+
 .text-decoration-p a {
     color: black;
     font-weight: 700;
