@@ -332,3 +332,25 @@ body {
 .assignment1 a button {
     font-weight: 700;
 }
+
+
+/* lfgjksdhfkdskfhkdf */
+
+.code-output {
+    width: 800px;
+    height: 600px;
+    border: 1px dotted black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code-output2 {
+    height: 50px;
+    border: 1px solid wheat;
+    margin: 5px;
+}
+
+.code-output23 {
+    border: 1px solid wheat;
+    margin: 5px;
+}
