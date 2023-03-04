@@ -500,13 +500,121 @@
 
                     </xmp>
                 </div>
-                <div class="d-grid   col-12   align-content-center justify-content-center">
+                <div class="d-grid m-3  col-12   align-content-center justify-content-center">
                     <a href="Html & Css/Assignment-11/index.php"><button class="btn btn-primary" type="button">Click for Output</button></a>
 
                 </div>
 
+                <div class=" code-output2 ">
+
+                    2.Write PHP Script to demonstrate use of associative arrays and for FOR EACH loop execution.
+                </div>
+                <div class="  code-output23">
+                    <xmp>
+                        <?php
+
+                        // Declare and initialize array
+                        
+                        $sides = array("1", "2", "3");
+                        $directions = array("Mahadi", "Hasan", "Mishuk" );
+                        
+                        // Use foreach loop to display array elements
+
+                        foreach( $sides as $index => $side ) {
+                            echo $side . " - " . $directions[$index] . " \n";
+                        }
+                        
+                        ?>
+
+
+                    </xmp>
+
+                </div>
+                <div class="d-grid m-3  col-12   align-content-center justify-content-center">
+                    <a href="Html & Css/Assignment-11/index2.php"><button class="btn btn-primary" type="button">Click for Output</button></a>
+
+                </div>
+                <div class=" code-output2 ">
+
+                    3.Write a PHP script to print user input values.
+
+                </div>
+                <div class="  code-output23">
+                    <xmp>
+
+                        <?php
+                            // define variables and set to empty values
+                            $nameErr = $emailErr = $genderErr = $websiteErr = "";
+                            $name = $email = $gender = $comment = $website = "";
+                            
+                            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                               if (empty($_POST["name"])) {
+                                  $nameErr = "Name is required";
+                               }else {
+                                  $name = test_input($_POST["name"]);
+                               }
+                               
+                               
+                               if (empty($_POST["hobby"])) {
+                                  $hobbyErr = "Hobby is required";
+                               }else {
+                                  $hobby = test_input($_POST["hobby"]);
+                               }
+                            }
+                            
+                            function test_input($data) {
+                               $data = trim($data);
+                               $data = stripslashes($data);
+                               $data = htmlspecialchars($data);
+                               return $data;
+                            }
+                         ?>
+
+                            <h3>Fill the form</h3>
+
+
+
+                            <form method="post" action="<?php 
+                              echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>">
+                                <table>
+                                    <tr>
+                                        <td>Name:</td>
+                                        <td><input type="text" name="name">
+                                            <span class="error"> <?php echo $nameErr;?></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hobby:</td>
+                                        <td>
+                                            <input type="radio" name="hobby" value="game">Game
+                                            <input type="radio" name="hobby" value="gardening">Gardening
+                                            <input type="radio" name="hobby" value="traveling">Travaling
+                                            <span class="error"> <?php echo $hobbyErr;?></span>
+                                        </td>
+                                    </tr>
+                                    <td>
+                                        <input type="submit" name="submit" value="Submit">
+                                    </td>
+                                </table>
+                            </form>
+
+                            <?php
+                                      echo "<h2>Display:</h2>";
+                                      echo $name;
+                                      echo "<br>";
+                                      echo $hobby;
+                                   ?>
+
+
+                    </xmp>
+                </div>
+                <div class="d-grid m-3  col-12   align-content-center justify-content-center">
+                    <a href="Html & Css/Assignment-11/index4.php"><button class="btn btn-primary" type="button">Click for Output</button></a>
+
+                </div>
 
             </div>
+
 
 
         </section>
