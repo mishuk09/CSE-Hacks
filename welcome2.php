@@ -152,6 +152,11 @@ if (isset($_POST['upload'])) {
 
 
 
+    <a href="login_register/ppppp/index.php"><input type="submit">Edit</a>
+
+
+
+
     <!-----------------------Navbar End------------------->
 
 
