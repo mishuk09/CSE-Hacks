@@ -114,8 +114,7 @@
     }
     /*-------------------------------- Navbar Css --------------------------------*/
     /*-------------------------------- Manue start --------------------------------*/
-    
-    .manue-bar-design {
+    /* .manue-bar-design {
         display: flex;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 700;
@@ -183,6 +182,35 @@
         border-radius: 50%;
         margin-top: 100px;
         margin-right: 10px;
+    } */
+    
+    .main-manuebar {
+        font-size: 0px;
+        background-color: #4caf50;
+        width: 100%;
+    }
+    
+    .main-manuebar ul li a {
+        display: block;
+        background-color: #4caf50;
+        color: #fff;
+        font-size: 15px;
+        padding: 0.9em;
+        text-decoration: none;
+        transition: all .25s ease-in-out;
+    }
+    
+    .ddsmoothmenu ul {
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    ul,
+    ul.points {
+        list-style: circle;
+        line-height: 150%;
     }
     /*-------------------------------- Manue end --------------------------------*/
     /*-------------------------------- Latest tutorial start--------------------------------*/
