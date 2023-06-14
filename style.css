@@ -114,7 +114,8 @@
     }
     /*-------------------------------- Navbar Css --------------------------------*/
     /*-------------------------------- Manue start --------------------------------*/
-    /* .manue-bar-design {
+    
+    .manue-bar-design {
         display: flex;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 700;
@@ -182,12 +183,13 @@
         border-radius: 50%;
         margin-top: 100px;
         margin-right: 10px;
-    } */
+    }
     
     .main-manuebar {
-        font-size: 0px;
+        font-size: 13px;
         background-color: #4caf50;
         width: 100%;
+        display: block;
     }
     
     .main-manuebar ul li a {
@@ -200,19 +202,88 @@
         transition: all .25s ease-in-out;
     }
     
-    .ddsmoothmenu ul {
+    .main-manuebar ul {
         z-index: 100;
         margin: 0;
         padding: 0;
         list-style-type: none;
     }
     
-    ul,
-    ul.points {
-        list-style: circle;
-        line-height: 150%;
+    .main-manuebar ul {
+        display: flex;
+    }
+    
+    .main-manuebar ul li {
+        display: flex;
+    }
+    
+    .main-manuebar ul li img {
+        width: 20px;
+        color: white;
+    }
+    
+    .main2-div {
+        height: 50px;
+        background-color: #4CAF50;
+    }
+    
+    .main2-div div {
+        height: 50px;
+        margin: 15px;
     }
     /*-------------------------------- Manue end --------------------------------*/
+    /* ================Notice ==================================== */
+    
+    .notice-marquee {}
+    
+    .latest-notice {
+        height: 40px;
+        border: 3px solid green;
+        border-radius: 3px;
+    }
+    
+    .latest-notice1-inline-div {
+        display: flex;
+    }
+    
+    .notice-name {
+        height: 35px;
+        width: 140px;
+        background-color: #3e8e41;
+    }
+    
+    .notice-name p {
+        font-weight: 700;
+        text-align: center;
+        padding: 5px;
+        color: #f1f1f1;
+    }
+    
+    .notice-marquee {
+        height: 35px;
+        width: 500px;
+    }
+    
+    .notice-marquee marquee {
+        font-weight: 700;
+    }
+    
+    .home-page-div {
+        display: flex;
+    }
+    
+    .home-page-div1 {
+        height: 430px;
+        width: 700px;
+        border: 1px solid rgb(194, 166, 166);
+    }
+    
+    .home-page-div2 {
+        height: 300px;
+        width: 500px;
+        /* border: 1px solid black; */
+        display: inline;
+    }
     /*-------------------------------- Latest tutorial start--------------------------------*/
     
     .latest-tutorial-headline i {
