@@ -29,8 +29,40 @@ body {
 /* ========================= */
 
 #header-div {
-    background-color: rgb(142, 154, 142);
-    height: 30px;
+    background-color: rgb(233, 217, 217);
+}
+
+#header-div .header-div2 {
+    display: flex;
+}
+
+#header-div #college-name .search-bar {
+    width: 500px;
+    margin: 10px;
+}
+
+#header-div #college-name .search-submit {
+    width: 70px;
+    margin: 10px;
+}
+
+#header-div .header-div2 .login-icon {
+    width: 70px;
+    margin: 10px;
+}
+
+#phone-email-number {
+    margin-top: 9px;
+    padding-left: 40px;
+}
+
+.login-div {
+    margin-top: 10px;
+    line-height: 0%;
+}
+
+#header-div #phone-email-number p {
+    line-height: 0%;
 }
 
 
