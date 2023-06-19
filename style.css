@@ -53,21 +53,9 @@ body {
     background-color: #071c2e;
 }
 
-#header-div {
-    /* background-color: rgb(233, 217, 217); */
-}
-
 #header-div .header-div2 {
     display: flex;
 }
-
-
-/* .header-div-main #header-div #college-name {
-    width: 620px;
-    border: 1px solid white;
-    height: 50px;
-    padding-top: 0px;
-} */
 
 #college-name .search-bar {
     width: 500px;
@@ -230,55 +218,6 @@ body {
 
 /*--------------------------------New Manue start --------------------------------*/
 
-
-/*             
-            .nav-bar {
-                font-size: 13px;
-                background-color: #4caf50;
-                width: 100%;
-            }
-            
-            .nav-bar ul {
-                z-index: 100;
-                margin: 0;
-                padding: 0;
-                list-style-type: none;
-            }
-            
-            .nav-bar ul li {
-                position: relative;
-                display: inline;
-                float: left;
-                overflow: hidden;
-            }
-            
-            .nav-bar ul li a {
-                display: block;
-                background-color: #4caf50;
-                color: #fff;
-                font-size: 15px;
-                padding: 0.9em;
-                text-decoration: none;
-                transition: all .25s ease-in-out;
-            } */
-
-
-/* sfghkhgksdhfkghkghsfdhgkj */
-
-
-/* @media screen and (max-width:768px) {
-    #header-div #college-name {
-        text-align: center;
-        border-bottom: 1px solid black;
-    }
-    #nav-manue ul li a {
-        display: flex;
-    }
-    #notice-name-para {
-        font-size: 14px;
-    }
-} */
-
 .nav-manue {
     font-size: 13px;
     /* background-color: #203156; */
@@ -375,130 +314,10 @@ body {
 /*-------------------------------- Manue start --------------------------------*/
 
 
-/* .manue-bar-design {
-                display: flex;
-                font-family: 'Times New Roman', Times, serif;
-                font-weight: 700;
-            }
-            
-            .manue-bar-design a i {
-                color: white;
-            }
-            
-            .manue-home a {
-                margin-top: 10px;
-            }
-            
-            .nabar-link {
-                display: flex;
-                background-color: #B4161B;
-                height: 45px;
-            }
-            
-            .nabar-link div {
-                display: flex;
-                width: 100px;
-                text-align: center;
-                justify-content: center;
-            }
-            
-            .nabar-link div:hover {
-                background-color: #4CAF50;
-                transition: 0.5s;
-                height: 45px;
-            }
-            
-            .nabar-link div a {
-                text-decoration: none;
-                font-weight: 700;
-                color: white;
-                font-family: 'Times New Roman', Times, serif;
-                margin-top: 10px;
-                margin-left: 5px;
-                padding: 0px;
-            }
-            
-            #dbms {
-                width: 100px;
-            }
-            
-            .nabar-link div a i {
-                margin: 3px;
-            }
-            
-            .arrow-button {
-                margin-bottom: 80px;
-                font-size: 25px;
-                font-weight: 700;
-                margin-right: 26px;
-            }
-            
-            .chat-icon-div {
-                margin-bottom: 20px;
-                margin-left: 20px;
-            }
-            
-            .chat-icon-div-img {
-                height: 50px;
-                border-radius: 50%;
-                margin-top: 100px;
-                margin-right: 10px;
-            }
-            
-            .main-manuebar {
-                font-size: 13px;
-                background-color: #4caf50;
-                width: 100%;
-                display: block;
-            }
-            
-            .main-manuebar ul li a {
-                display: block;
-                background-color: #4caf50;
-                color: #fff;
-                font-size: 15px;
-                padding: 0.9em;
-                text-decoration: none;
-                transition: all .25s ease-in-out;
-            }
-            
-            .main-manuebar ul {
-                z-index: 100;
-                margin: 0;
-                padding: 0;
-                list-style-type: none;
-            }
-            
-            .main-manuebar ul {
-                display: flex;
-            }
-            
-            .main-manuebar ul li {
-                display: flex;
-            }
-            
-            .main-manuebar ul li img {
-                width: 20px;
-                color: white;
-            }
-            
-            .main2-div {
-                height: 50px;
-                background-color: #4CAF50;
-            }
-            
-            .main2-div div {
-                height: 50px;
-                margin: 15px;
-            } */
-
-
 /*-------------------------------- Manue end --------------------------------*/
 
 
 /* ================Notice ==================================== */
-
-.notice-marquee {}
 
 .arrow-button {
     margin-bottom: 80px;
