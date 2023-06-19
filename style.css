@@ -28,22 +28,38 @@ body {
 
 /* ========================= */
 
+.header-div-main {
+    background-color: #071c2e;
+}
+
 #header-div {
-    background-color: rgb(233, 217, 217);
+    /* background-color: rgb(233, 217, 217); */
 }
 
 #header-div .header-div2 {
     display: flex;
 }
 
-#header-div #college-name .search-bar {
+.header-div-main #header-div #college-name {
+    width: 650px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+#college-name .search-bar {
     width: 500px;
     margin: 10px;
+    border: none;
+    border-radius: 4px;
 }
 
 #header-div #college-name .search-submit {
     width: 70px;
     margin: 10px;
+    border: none;
+    border-radius: 4px;
 }
 
 #header-div .header-div2 .login-icon {
@@ -63,6 +79,28 @@ body {
 
 #header-div #phone-email-number p {
     line-height: 0%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header-div #phone-email-number #career-login p a {
+    line-height: 0%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#header-div #phone-email-number #career-login p #subscribe-button {
+    line-height: 0%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(223, 0, 0);
+    border-radius: 7px;
+    padding: 3px 4px 3px 4px;
 }
 
 
