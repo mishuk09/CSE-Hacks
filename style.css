@@ -457,7 +457,7 @@ body {
 
 /*-------------------------------- Trending  tutorial End--------------------------------*/
 
-footer {
+/* footer {
     background-color: #eee9e9;
     height: 250px;
 }
@@ -468,6 +468,106 @@ footer {
 
 .footer-main-div0 p img {
     margin-left: px;
+    margin-top: 10px;
+}
+
+.footer-main-div0 p {
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-main-div1 img {
+    margin-left: 40px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.footer-main-div1 {
+    margin-top: 0px;
+}
+
+.location-email {
+    line-height: 0in;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-about {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-about a {
+    text-decoration: none;
+    color: black;
+    padding-top: 15px;
+}
+
+.footer-learn {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-learn a {
+    text-decoration: none;
+    color: black;
+    padding-top: 15px;
+}
+
+.footer-contact {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* icon */
+/*
+.footer-div a i {
+    font-size: 25px;
+    color: black;
+    margin-left: 8px;
+}
+
+.footer-div svg {
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.footer-div {
+    margin-top: 0px;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.footer-div3 {
+    margin-top: 5px;
+    color: black;
+} */
+
+
+
+
+
+
+footer {
+    background-color: #eee9e9;
+    /* height: 250px; */
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    background: #ffffff;
+    height: auto;
+}
+
+.footer-main-div {
+    display: flex;
+}
+
+.footer-main-div0 p img {
+    margin-left: 30px;
     margin-top: 10px;
 }
 
@@ -544,4 +644,83 @@ footer {
 .footer-div3 {
     margin-top: 5px;
     color: black;
+}
+
+
+/* ====================================== */
+
+#footer-main-div #footer-main-div2 #footer-main-div3 .footer-main-div0 #app-logo-div img {
+    margin-left: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* #footer-img {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
+
+#andriod-app-logo-div {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#app-logo-div {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#footer-about-div {
+    padding-left: 60px;
+}
+
+#footer-learn-div {
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    #footer-main-div #footer-main-div2 #footer-main-div {
+        width: 100%;
+    }
+    #footer-main-div #footer-main-div2 #footer-contact-div {
+        background-color: #3e8e41;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #andriod-app-logo-div {
+        margin-left: 25px;
+    }
+    #app-logo-div span {
+        font-size: 12px;
+    }
+    #footer-about-div {
+        padding-left: 0px;
+    }
+    #footer-learn-div {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    #footer-main-div3 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+    }
+    #footer-main-div3 #app-logo-div img {
+        padding-left: 10px;
+    }
+    #app-logo-div img {
+        padding-left: 10px;
+    }
+    #footer-main-div #footer-main-div2 #footer-main-div3 .footer-main-div0 #app-logo-div img {
+        margin-left: 0px;
+        justify-content: center;
+        padding-left: 0px;
+    }
 }
